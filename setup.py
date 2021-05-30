@@ -2,12 +2,12 @@ from setuptools import setup
 from setuptools import find_packages
 
 # change this.
-NAME = "your package name"
-AUTHOR = "your name"
-EMAIL = "your mail"
-URL = "your project url"
-LICENSE = "your license"
-DESCRIPTION = "your project description"
+NAME = "MST-AUGer"
+AUTHOR = "Hui Chong"
+EMAIL = "huichong.me@gmail.com"
+URL = "https://github.com/AdeBC/MST-AUGer"
+LICENSE = "GPL 3.0"
+DESCRIPTION = "Synthetic mixture-based data augmentation for microbial source tracking"
 
 if __name__ == "__main__":
     setup(
@@ -26,18 +26,18 @@ if __name__ == "__main__":
         # change package_name to your package name.
         entry_points={
             "console_scripts": [
-                "package_name=package_name.shell:run"
+                "aug=MST-AUGer.shell:run"
             ]
         },
         package_data={
             # change package_name to your package name.
-            "package_name": ["src/*.txt"]
+            "MST-AUGer": ["src/*.txt"]
         },
         zip_safe=True,
         classifiers=[
             "Programming Language :: Python :: 3",
             # change $license to your license.
-            "License :: OSI Approved :: $license",
+            "License :: OSI Approved :: GPL 3.0",
             "Operating System :: OS Independent",
         ],
         python_requires=">=3.6"
