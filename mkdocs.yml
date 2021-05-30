@@ -1,1 +1,9 @@
-site_name: My Docs
+site_name: MST-AUGer
+theme: readthedocs
+
+nav:
+    - Home: 'index.md'
+    - Installation: 'installation.md'
+    - Augmentation: 'augmentation.md'
+    - Evaluation: 'evaluation.md'
+    - About: 'about.md'
